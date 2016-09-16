@@ -1,0 +1,55 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.text {
+	    font-family: 'Trochut', cursive;
+	}
+	#sticky-social a {
+	    text-decoration: none;
+	}
+	#sticky-social ul {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	#sticky-social .container {
+	    margin: 0 auto;
+	    padding: 20px 50px;
+	    background: white;
+	}
+	#sticky-social {
+	    left: 0;
+	    position: fixed;
+	    top: 50%;
+	}
+	#sticky-social a {
+	    background: #333;
+	    color: #fff;
+	    display: block;
+	    height: 35px;
+	    font: 16px "Open Sans", sans-serif;
+	    line-height: 35px;
+	    position: relative;
+	    text-align: center;
+	    width: 35px;
+	}
+	#sticky-social a span {
+	    line-height: 35px;
+	    left: -120px;
+	    position: absolute;
+	    text-align:center;
+	    width:120px;
+	}
+	#sticky-social a:hover span {
+	    left: 100%;
+	}
+	#sticky-social a[class*="facebook"],
+	#sticky-social a[class*="facebook"]:hover,
+	#sticky-social a[class*="facebook"] span { background: #051C38; }
+
+	#sticky-social a[class*="twitter"],
+	#sticky-social a[class*="twitter"]:hover,
+	#sticky-social a[class*="twitter"] span { background: #143153; }
+
+	#sticky-social a[class*="instagrem"],
+	#sticky-social a[class*="instagrem"]:hover,
+	#sticky-social a[class*="instagrem"] span { background: #4B688B; }
