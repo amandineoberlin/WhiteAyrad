@@ -7,9 +7,11 @@ angular.module('myApp', [
   'myApp.purple',
   'myApp.red',
   'myApp.yellow',
-  'myApp.version'
+  'myApp.version',
+  'plangular'
 ]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-
-  $routeProvider.otherwise({redirectTo: '/home'});
-}]);
+config(['$locationProvider', '$routeProvider', 'plangularConfigProvider',
+  function($locationProvider, $routeProvider, plangularConfigProvider) {
+    $routeProvider.otherwise({redirectTo: '/home'});
+    plangularConfigProvider.clientId = '[d30a1fa416f07759091d5c6bcbe97e48]';
+  }]);
