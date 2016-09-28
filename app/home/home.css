@@ -1,9 +1,9 @@
 .full {
-	    background: url(../images/logo-transparent.png);
-	    background-repeat: no-repeat;
-	    background-attachment: fixed;
-	    background-position: 50% 25%;
-	    background-color: #000000;
+	background: url(../images/transparent.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	background-color: #000000;
 	}
 
 	/************************************************Footer*************************************************/

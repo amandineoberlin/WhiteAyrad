@@ -6,14 +6,21 @@ body {
   color: #848484;
   font-family: "Source Sans Pro", "Open Sans", sans-serif;
   font-size: 16px;
+  background: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
 }
 
 .purple {
-  background: url(../images/purpleopaque.png);
-  background-position: 75%;
+  background-color: rgba(16,4,24,0.6);
+
 }
 .fullwidth-block {
-  background: url(../images/purpleopaque.png);
+  background: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
 }
 
 h1 {
@@ -32,6 +39,7 @@ h3 {
   font-size: 1.17em;
   margin: 1em 0;
   line-height: normal;
+  color: white;
 }
 
 h4 {
@@ -62,6 +70,7 @@ h6 {
 .main-navigation {
   float: right;
 }
+
   /* line 30, sass/layout/_header.scss */
   .main-navigation .toggle-menu {
     background: none;
@@ -72,7 +81,8 @@ h6 {
     outline: none;
     position: relative;
     top: 40px;
-    display: none; }
+    display: none;
+  }
     /* line 40, sass/layout/_header.scss */
     .main-navigation .toggle-menu:hover, .main-navigation .toggle-menu:active, .main-navigation .toggle-menu.active {
       color: #876089; }
@@ -170,6 +180,13 @@ h6 {
     .mobile-menu .menu .current-menu-item a {
       color: #876089; }
 
+.sidebar {
+  background-color: rgba(0,0,0,0.3);
+  border: 2px solid;
+  border-color: rgba(46,2,74,0.8);
+  padding-left: 10px;
+  border-bottom: 2px solid purple;
+}
 /* line 18, sass/layout/_sidebar.scss */
 .discography-list a {
   text-decoration: none;
@@ -220,40 +237,24 @@ h6 {
     padding-left: 12px;
   }
 
-/* line 1, sass/pages/_post.scss */
 .inner-content {
   background-color: #141414;
   padding: 80px 0;
 }
-
-/* line 6, sass/pages/_post.scss */
 .content .entry-title {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 36px;
   font-size: 2.25em;
-  color: white; }
-/* line 13, sass/pages/_post.scss */
-.content .featured-image {
-  overflow: hidden;
-  margin-bottom: 50px; }
-  /* line 16, sass/pages/_post.scss */
-  .content .featured-image img {
-    width: 100%;
-    max-width: 100%; }
-/* line 22, sass/pages/_post.scss */
+  color: white;
+}
 .content .leading {
-  margin-bottom: 50px;
+  height: 100%;
   color: white;
   font-size: 18px;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+}
 /* line 27, sass/pages/_post.scss */
 .content p {
-  margin: 0 0 40px; }
-
-/* line 1, sass/pages/_gallery.scss */
-.content.fullwidth {
-  padding: 80px 0; }
-
-
-/*--------CUSTOM-------------*/
+  margin: 0 0 40px;
+}

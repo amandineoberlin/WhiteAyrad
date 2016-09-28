@@ -5,7 +5,10 @@
 
     .directive('electric', function() {
       return {
-        templateUrl: '/components/electric.html'
+        templateUrl: '/components/electric.html',
+        scope: {
+          color: '@'
+        },
       };
     });
 })();
