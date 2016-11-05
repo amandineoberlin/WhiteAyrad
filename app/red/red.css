@@ -1,1 +1,271 @@
-/*#C62828*/
+/*#CD5C5C*/
+
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #848484;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif;
+  font-size: 16px;
+  background: url(../images/redBack.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+}
+
+.banner {
+  background-color: rgba(16,4,24,1);
+
+}
+.fullwidth-block {
+  background: url(../images/redBack.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+}
+
+#svgStatic {
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 30px;
+  float: left;
+  padding-top: 45px;
+  color: white;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+  line-height: normal;
+  color: white;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+  line-height: normal;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+  line-height: normal;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+  line-height: normal;
+}
+
+/* line 9, sass/libs/_global.scss */
+#site-content {
+  overflow: hidden;
+}
+
+
+/* line 28, sass/layout/_header.scss */
+.main-navigation {
+  float: right;
+}
+
+  /* line 30, sass/layout/_header.scss */
+  .main-navigation .toggle-menu {
+    background: none;
+    color: #848484;
+    font-size: 18px;
+    font-size: 1.125em;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 40px;
+    display: none;
+  }
+    /* line 40, sass/layout/_header.scss */
+    .main-navigation .toggle-menu:hover, .main-navigation .toggle-menu:active, .main-navigation .toggle-menu.active {
+      color: #CD5C5C; }
+    @media screen and (max-width: 640px) {
+      /* line 30, sass/layout/_header.scss */
+      .main-navigation .toggle-menu {
+        display: block; } }
+  /* line 48, sass/layout/_header.scss */
+  .main-navigation .menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+    @media screen and (min-width: 641px) {
+      /* line 48, sass/layout/_header.scss */
+      .main-navigation .menu {
+        display: block !important; } }
+    @media screen and (max-width: 640px) {
+      /* line 48, sass/layout/_header.scss */
+      .main-navigation .menu {
+        display: none; } }
+    /* line 56, sass/layout/_header.scss */
+    .main-navigation .menu .menu-item {
+      position: relative;
+      float: left; }
+      /* line 60, sass/layout/_header.scss */
+      .main-navigation .menu .menu-item:after {
+        content: " ";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 0;
+        opacity: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid #CD5C5C;
+        -webkit-transition: .3s ease;
+                transition: .3s ease; }
+      /* line 75, sass/layout/_header.scss */
+      .main-navigation .menu .menu-item:last-child a:after {
+        display: none; }
+      /* line 78, sass/layout/_header.scss */
+      .main-navigation .menu .menu-item:hover:after, .main-navigation .menu .menu-item.current-menu-item:after {
+        opacity: 1; }
+      /* line 80, sass/layout/_header.scss */
+      .main-navigation .menu .menu-item:hover a, .main-navigation .menu .menu-item.current-menu-item a {
+        color: #CD5C5C; }
+    /* line 84, sass/layout/_header.scss */
+    .main-navigation .menu a {
+      display: block;
+      position: relative;
+      padding: 45px 20px;
+      color: white;
+      font-size: 15px;
+      font-size: 0.9375em;
+      font-weight: 600;
+      text-decoration: none;
+      -webkit-transition: .3s ease;
+              transition: .3s ease; }
+      /* line 94, sass/layout/_header.scss */
+      .main-navigation .menu a:after {
+        content: "|";
+        position: absolute;
+        right: 0;
+        color: rgba(255, 255, 255, 0.45);
+        font-weight: 300; }
+
+/* line 105, sass/layout/_header.scss */
+.mobile-menu {
+  clear: both;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: none;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 641px) {
+    /* line 105, sass/layout/_header.scss */
+    .mobile-menu {
+      display: none !important; } }
+  /* line 112, sass/layout/_header.scss */
+  .mobile-menu .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 117, sass/layout/_header.scss */
+    .mobile-menu .menu a {
+      padding: 10px;
+      color: #848484;
+      text-decoration: none;
+      display: block;
+      background: #191919; }
+      /* line 124, sass/layout/_header.scss */
+      .mobile-menu .menu a:hover {
+        color: #CD5C5C; }
+    /* line 126, sass/layout/_header.scss */
+    .mobile-menu .menu .current-menu-item a {
+      color: #CD5C5C; }
+
+.sidebar {
+  background-color: rgba(0,0,0,1);
+  float: right;
+}
+.widget-title {
+  text-align: center;
+  background-color: black;
+}
+/* line 18, sass/layout/_sidebar.scss */
+.discography-list a {
+  text-decoration: none;
+}
+.discography-list li {
+  display: table;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+  /* line 24, sass/layout/_sidebar.scss */
+  .discography-list li:last-child {
+    border-bottom: none; }
+/* line 27, sass/layout/_sidebar.scss */
+.discography-list .cover, .discography-list .detail {
+  display: table-cell;
+  vertical-align: middle; }
+/* line 31, sass/layout/_sidebar.scss */
+.discography-list .cover {
+  width: 124px;
+  height: 124px;
+  overflow: hidden; }
+  /* line 35, sass/layout/_sidebar.scss */
+  .discography-list .cover img {
+    display: block;
+    width: 100%;
+    max-width: 100%; }
+/* line 41, sass/layout/_sidebar.scss */
+.discography-list .detail {
+  padding-left: 20px; }
+  /* line 44, sass/layout/_sidebar.scss */
+  .discography-list .detail h3 {
+    margin: 0;
+    font-weight: 400; }
+    /* line 48, sass/layout/_sidebar.scss */
+    .discography-list .detail h3 {
+      color: #CD5C5C;
+      text-decoration: none; }
+  /* line 53, sass/layout/_sidebar.scss */
+  .discography-list .detail .year {
+    color: white;
+    display: block; }
+  .discography-list .detail .track {
+    color: #CD5C5C;
+    display: block; }
+  .discography-list .active {
+    border-left: solid;
+    border-color: #CD5C5C;
+    border-width: 1px;
+    padding-left: 12px;
+  }
+
+.inner-content {
+  background-color: #141414;
+  padding: 40px 0;
+}
+.content .entry-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-size: 1.5em;
+  color: white;
+}
+.content .leading {
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  font-size: 1.125em;
+}
+/* line 27, sass/pages/_post.scss */
+.content p {
+  margin: 0 0 40px;
+}

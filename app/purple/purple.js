@@ -11,7 +11,10 @@ angular.module('myApp.purple', ['ngRoute'])
 
 .controller('PurpleCtrl', [
   '$scope',
-  function($scope) {
+  '$css',
+  function($scope, $css) {
+  $css.removeAll();
+  $css.add('purple/purple.css');
 
     //svg hide/show logic
     $('#svgActive').css({ display: 'none' });
@@ -23,5 +26,4 @@ angular.module('myApp.purple', ['ngRoute'])
       $('#svgActive').css({ display: 'none' });
       $('#svgStatic').css({ display: 'inline' });
     });
-
 }]);

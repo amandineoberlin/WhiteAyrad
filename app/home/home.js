@@ -11,4 +11,9 @@ angular.module('myApp.home', ['ngRoute'])
 
 .controller('HomeCtrl', [function() {
 
+
+    $('#purpleMenu').click(function() {
+      $('head').append('<link rel="stylesheet" href="purple/purple.css" type="text/css" />');
+    });
+
 }]);
