@@ -1,10 +1,10 @@
 /*#CD5C5C*/
 
-body {
+#site-content {
   margin: 0;
-  background-color: #000000;
-  color: #848484;
-  font-size: 16px;
+  background-color: black;
+  color: black;
+  font-size: 18px;
   background: url(../images/redBack.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -72,6 +72,9 @@ h6 {
   overflow: hidden;
 }
 
+.site-header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* line 28, sass/layout/_header.scss */
 .main-navigation {
@@ -223,9 +226,7 @@ h6 {
     max-width: 100%; }
 /* line 41, sass/layout/_sidebar.scss */
 .discography-list .detail {
-  padding-left: 42px;
-  padding-right: 20px;
-}
+  padding-left: 42px; }
   /* line 44, sass/layout/_sidebar.scss */
   .discography-list .detail h3 {
     margin: 0;
@@ -257,7 +258,7 @@ h6 {
   margin-bottom: 30px;
   font-size: 30px;
   font-size: 1.5em;
-  color: white;
+  color: #CD5C5C;
 }
 .content .leading {
   height: 100%;

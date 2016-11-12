@@ -1,10 +1,10 @@
 /*#876089*/
 
-body {
+#site-content {
   margin: 0;
-  background-color: #000000;
-  color: #848484;
-  font-size: 16px;
+  background-color: black;
+  color: black;
+  font-size: 18px;
   background: url(../images/1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -72,6 +72,9 @@ h6 {
   overflow: hidden;
 }
 
+.site-header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* line 28, sass/layout/_header.scss */
 .main-navigation {
@@ -255,7 +258,7 @@ h6 {
   margin-bottom: 30px;
   font-size: 30px;
   font-size: 1.5em;
-  color: white;
+  color: #876089;
 }
 .content .leading {
   height: 100%;
