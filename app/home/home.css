@@ -1,10 +1,14 @@
-.full {
-	background: url(../images/transparent.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position:center;
-	background-color: #000000;
+body {
+	background-color: black;
 	}
+
+.background {
+	padding-top: 30px;
+	margin: 0 auto;
+	display: table;
+	width: 50%;
+	background-color: black;
+}
 
 	/************************************************Footer*************************************************/
 

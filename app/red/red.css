@@ -4,7 +4,6 @@ body {
   margin: 0;
   background-color: #000000;
   color: #848484;
-  font-family: "Source Sans Pro", "Open Sans", sans-serif;
   font-size: 16px;
   background: url(../images/redBack.png);
   background-repeat: no-repeat;
@@ -24,7 +23,6 @@ body {
 }
 
 #svgStatic {
-  font-family: 'Share Tech Mono', sans-serif;
   font-size: 30px;
   float: left;
   padding-top: 45px;
@@ -225,7 +223,9 @@ h6 {
     max-width: 100%; }
 /* line 41, sass/layout/_sidebar.scss */
 .discography-list .detail {
-  padding-left: 20px; }
+  padding-left: 42px;
+  padding-right: 20px;
+}
   /* line 44, sass/layout/_sidebar.scss */
   .discography-list .detail h3 {
     margin: 0;

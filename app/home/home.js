@@ -9,11 +9,10 @@ angular.module('myApp.home', ['ngRoute'])
   });
 }])
 
-.controller('HomeCtrl', [function() {
-
-
-    $('#purpleMenu').click(function() {
-      $('head').append('<link rel="stylesheet" href="purple/purple.css" type="text/css" />');
-    });
+.controller('HomeCtrl', [
+  '$css',
+  function($css) {
+  $css.removeAll();
+  $css.add('home/home.css');
 
 }]);
