@@ -1,4 +1,7 @@
 /*#CD5C5C*/
+body {
+  background: url(../images/redBack.png);
+}
 
 #site-content {
   margin: 0;

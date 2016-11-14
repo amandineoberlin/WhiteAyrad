@@ -15,4 +15,17 @@ angular.module('myApp.home', ['ngRoute'])
   $css.removeAll();
   $css.add('home/home.css');
 
+  $('.thumb').mouseover(function() {
+    var self = $(this);
+    setTimeout(function() {
+      self.removeClass("shake-opacity");
+    }, 200);
+  });
+  $('.thumb').mouseout(function() {
+    var self = $(this);
+    setTimeout(function() {
+      self.addClass("shake-opacity");
+    }, 200);
+  });
+
 }]);

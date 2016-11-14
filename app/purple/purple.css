@@ -1,4 +1,7 @@
 /*#876089*/
+body {
+  background: url(../images/1.png);
+}
 
 #site-content {
   margin: 0;
