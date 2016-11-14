@@ -31,4 +31,5 @@ angular.module('myApp.purple', ['ngRoute'])
       $('#svgActive').css({ display: 'none' });
       $('#svgStatic').css({ display: 'inline' });
     });
+
 }]);

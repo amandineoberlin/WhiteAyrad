@@ -20,6 +20,7 @@ angular.module('myApp.home', ['ngRoute'])
     $('.hidden').fadeIn(500).removeClass('hidden');
   });
 
+  //thumbnail images to shake on hover
   $('.thumb').mouseover(function() {
     var self = $(this);
     setTimeout(function() {
