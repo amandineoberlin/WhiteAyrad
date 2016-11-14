@@ -15,6 +15,11 @@ angular.module('myApp.home', ['ngRoute'])
   $css.removeAll();
   $css.add('home/home.css');
 
+  //load page fade in
+  $(document).ready(function() {
+    $('.hidden').fadeIn(500).removeClass('hidden');
+  });
+
   $('.thumb').mouseover(function() {
     var self = $(this);
     setTimeout(function() {

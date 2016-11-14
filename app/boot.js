@@ -7,7 +7,6 @@ angular.module('myApp', [
   'myApp.home',
   'myApp.purple',
   'myApp.red',
-  'myApp.yellow',
   'myApp.version',
   'plangular'
 ]).

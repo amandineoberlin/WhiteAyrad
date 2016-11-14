@@ -1,9 +1,14 @@
 /*#876089*/
-body {
-  background: url(../images/1.png);
+.hidden {
+  display: none;
 }
 
 #site-content {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
   margin: 0;
   background-color: black;
   color: black;
@@ -14,10 +19,6 @@ body {
   background-position:center;
 }
 
-.banner {
-  background-color: rgba(16,4,24,1);
-
-}
 .fullwidth-block {
   background: url(../images/1.png);
   background-repeat: no-repeat;

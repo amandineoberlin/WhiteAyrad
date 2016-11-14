@@ -16,6 +16,11 @@ angular.module('myApp.red', ['ngRoute'])
     $css.removeAll();
     $css.add('red/red.css');
 
+    //load page fade in
+    $(document).ready(function() {
+      $('.hidden').fadeIn(1000).removeClass('hidden');
+    });
+    
     //svg hide/show logic
     $('#svgActive').css({ display: 'none' });
     $(".menu").mouseover(function() {
